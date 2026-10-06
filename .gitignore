@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Testes e ferramentas
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Configuracao local e segredos
+.env
+.env.*
+!.env.example
+
+# Banco SQLite local
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
